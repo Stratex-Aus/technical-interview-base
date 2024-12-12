@@ -46,7 +46,7 @@ const setupDebugger = (isProd: boolean = false) => {
 //  Routes
 // ----------------------------------------------
 app.get("/", requestLogging, (req: ApiRequest, res: Response) => {
-  res.status(StatusCodes.OK).json({ msg: "Project Digiwin API" });
+  res.status(StatusCodes.OK).json({ msg: "Project API" });
 });
 
 app.get("/api/v1/ping", requestLogging, (req: ApiRequest, res: Response) => {
